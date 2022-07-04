@@ -278,10 +278,6 @@ h2 {
 
 /* icon-style */
 
-.style-quality-title {
-    
-    /* border: 1px solid tomato; */
-}
 
 .style-quality-group {
     display: block;
@@ -425,9 +421,7 @@ p {
 }
 
 
-.media-network {
-    width: 44px;
-    height: 44PX;
+.media-end {
     fill: var(--icon-color);
 
     /* outline: 1px solid teal; */
