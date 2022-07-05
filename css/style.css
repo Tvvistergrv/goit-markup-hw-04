@@ -152,18 +152,20 @@ body {
     align-items: center;
 }
 
+.callback {
+    margin-right: 10px;
+}
+
 .nav-address .item:not(:last-child) {
     margin-right: 30px;
 }
 
-.nav-address .list:hover {
+.nav-address .list:hover, .nav-address .list:focus {
     color: var(--accent-color);
     fill: var(--accent-color);
 }
 
-.callback {
-    margin-right: 10px;
-}
+    
 
 /* hero */
 .hero {
@@ -258,7 +260,9 @@ h2 {
     flex-wrap: nowrap;
 }
 .style-quality {
+    
     width: 1200px;
+
     
 }
 
@@ -279,20 +283,18 @@ h2 {
 
 
 .style-quality-group {
-    display: block;
-    padding: 25px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     box-sizing: border-box;
     width: 270px;
     height: 120px;
-    /* border: 1px solid tomato; */
     background: var(--background-color-team);
     border-radius: 4px;
     margin-bottom: 30px;
 }
 
-.style-quality-group:not(:last-child) {
-    margin-right: 30px;
-}
+
 /* .nav-address .item:not(:last-child) {
     margin-right: 50px; */
 
@@ -469,8 +471,8 @@ p {
 /* clients */
 
 .regular-customers {
-    padding-top: 96px;
-    padding-bottom: 138px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 
 }
 
@@ -498,11 +500,23 @@ p {
     border: 1px solid var(--icon-color);
     fill: var(--icon-color);
     cursor: pointer;
+    border-radius: 4px;
 }
+
 
 .logo-company:hover {
     fill: var(--accent-color);
     border: 1px solid var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+.company-select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 170px;
+    height: 92px;
 }
 
 .company-select:focus {
@@ -512,7 +526,7 @@ p {
 }
 
 .client-logo {
-    padding: 16px 32px;
+    /* padding: 16px 32px; */
 }
 
 
